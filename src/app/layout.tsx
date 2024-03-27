@@ -13,14 +13,11 @@ export const metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode; }) {
+
   return (
-    <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+    <html lang="en" className=" bg-slate-500 px-96">
+      <body className={`font-sans ${inter.variable} bg-white px-10 pt-5`}>{children}</body>
     </html>
   );
 }
