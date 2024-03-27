@@ -25,9 +25,9 @@ export default function HomePage() {
     },
   ] as Project[])
 
-  const handleClick = () => {
-    while(true) {}
-  }
+  // const handleClick = () => {
+  //   while(true) {}
+  // }
 
   return (
     <main className="flex min-h-screen flex-col items-center text-black">
@@ -93,7 +93,7 @@ export default function HomePage() {
             </div>
             
 
-            <button onClick={handleClick} className="border border-black w-[90%]">Back to desktop</button>
+            {/* <button onClick={handleClick} className="border border-black w-[90%]">Back to desktop</button> */}
           </div>
           <div className="flex flex-col mt-2 ml-2">
             <div>
